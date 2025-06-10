@@ -16,6 +16,8 @@ body {
   align-content: center ;
 }
 
+
+
 p {
   color: rgb(2, 207, 190);
   font-size: 20px;
@@ -85,4 +87,19 @@ p {
 .result-button:hover {
   cursor: pointer;
   background-color: rgb(4, 168, 155);
+}
+
+.foot {
+  text-align: center;
+  font-style: italic;
+  color:white;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+  color:white;
+}
+
+.link:hover {
+  color: rgb(5, 233, 214);
 }
