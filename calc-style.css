@@ -11,9 +11,14 @@ body {
   margin: auto;
 }
 
-.display {
-  height: 150px;
-  align-content: center ;
+#disp {
+  height: 115px;
+  align-content: center;
+  margin-top: 10px;
+  width: 408px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: lightgrey;
 }
 
 
