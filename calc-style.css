@@ -4,22 +4,68 @@ body {
 
 .back {
   background-color: rgb(12, 12, 12);
-  height: 600px;
+  height: 500px;
   width: 450px;
   border-radius: 10px;
+  margin: auto;
 }
 
-.grid {
+.display {
+  height: 150px;
+}
+
+p {
+  color: rgb(2, 207, 190);
+  font-size: 20px;
+  font-weight: bold;
+  height: 100px;
+}
+
+.grid1 {
   display: grid;
   grid-template-columns: 100px 100px 100px 100px;
   column-gap: 10px;
   row-gap: 10px;
   align-items: stretch;
   margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 210px 100px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: stretch;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .green-button {
-  background-color: green;
+  background-color: rgb(2, 207, 190);
   height: 60px;
+  border-radius: 8px;
+  border-style: none;
+  font-size: 18px;
+  font-weight: bold;
+}
 
+.grey-button {
+  background-color: rgb(27, 27, 27);
+  height: 60px;
+  border-radius: 8px;
+  border-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+}
+
+.green-button:hover {
+  cursor: pointer;
+  background-color: rgb(5, 233, 214);
+}
+
+.grey-button:hover {
+  cursor: pointer;
+  background-color: rgb(70, 70, 70);
 }
