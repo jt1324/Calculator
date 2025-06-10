@@ -12,13 +12,14 @@ body {
 
 .display {
   height: 150px;
+  align-content: center ;
 }
 
 p {
   color: rgb(2, 207, 190);
   font-size: 20px;
   font-weight: bold;
-  height: 100px;
+  margin-left: 10px;
 }
 
 .grid1 {
@@ -68,4 +69,19 @@ p {
 .grey-button:hover {
   cursor: pointer;
   background-color: rgb(70, 70, 70);
+}
+
+.result-button {
+  background-color: rgb(2, 151, 139);
+  height: 60px;
+  border-radius: 8px;
+  border-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+}
+
+.result-button:hover {
+  cursor: pointer;
+  background-color: rgb(4, 168, 155);
 }
